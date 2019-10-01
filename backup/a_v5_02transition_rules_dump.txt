@@ -1,0 +1,36 @@
+$VAR1 = 'get_hungry';
+$VAR2 = {
+          'state_from' => {
+                            'sleeping' => 1,
+                            'busy' => 1
+                          },
+          'state_to_transit' => 'hungry'
+        };
+$VAR3 = 'get_up';
+$VAR4 = {
+          'state_from' => {
+                            'sleeping' => 1
+                          },
+          'state_to_transit' => 'normal'
+        };
+$VAR5 = 'eat';
+$VAR6 = {
+          'state_from' => {
+                            'hungry' => 1
+                          },
+          'state_to_transit' => 'normal'
+        };
+$VAR7 = 'study';
+$VAR8 = {
+          'state_from' => {
+                            'normal' => 1
+                          },
+          'state_to_transit' => 'busy'
+        };
+$VAR9 = 'get_tired';
+$VAR10 = {
+           'state_to_transit' => 'sleeping',
+           'state_from' => {
+                             'busy' => 1
+                           }
+         };

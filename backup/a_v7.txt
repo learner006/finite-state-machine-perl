@@ -1,0 +1,4 @@
+normal
+busy
+sleeping
+hungry

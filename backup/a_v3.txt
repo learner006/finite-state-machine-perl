@@ -1,0 +1,15 @@
+HASH(0x327c70)
+state_from: busy
+evet_name: get_hungry state_to: hungry
+evet_name: get_tired state_to: sleeping
+
+state_from: hungry
+evet_name: eat state_to: normal
+
+state_from: normal
+evet_name: study state_to: busy
+
+state_from: sleeping
+evet_name: get_hungry state_to: hungry
+evet_name: get_up state_to: normal
+

@@ -1,0 +1,2 @@
+Ну, вроде всё правильно.
+feat: init event transition rules using sub :-)

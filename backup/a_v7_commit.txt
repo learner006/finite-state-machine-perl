@@ -1,0 +1,4 @@
+feat: trigger('get_hungry'), getStates() /a part of/, changeState()
+
+There is a lot of modifications :-)
+changeState() contains all the checks I could come up wiht :-)
